@@ -1,13 +1,13 @@
 package structural.decorator;
 
-public class Rifle extends Gun {
+public class Rifle implements Gun {
     @Override
-    String description() {
+    public String description() {
         return "Rifle";
     }
 
     @Override
-    int price() {
+    public int price() {
         return 20000;
     }
 }

@@ -1,4 +1,4 @@
 package structural.decorator;
 
-public abstract class GunAccessoriesDecorator extends Gun {
+ interface GunAccessoriesDecorator extends Gun {
 }
